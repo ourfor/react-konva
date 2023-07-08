@@ -1,4 +1,4 @@
-import Konva from 'konva/lib/Core.js';
+import Konva from '@ourfor/konva/lib/Core.js';
 import { applyNodeProps, updatePicture, EVENTS_NAMESPACE } from './makeUpdates.js';
 
 export {
@@ -32,7 +32,7 @@ export function createInstance(type, props, internalInstanceHandle) {
   let NodeClass = Konva[type];
   if (!NodeClass) {
     console.error(
-      `Konva has no node with the type ${type}. Group will be used instead. If you use minimal version of react-konva, just import required nodes into Konva: "import "konva/lib/shapes/${type}"  If you want to render DOM elements as part of canvas tree take a look into this demo: https://konvajs.github.io/docs/react/DOM_Portal.html`
+      `Konva has no node with the type ${type}. Group will be used instead. If you use minimal version of react-konva, just import required nodes into Konva: "import "@ourfor/konva/lib/shapes/${type}"  If you want to render DOM elements as part of canvas tree take a look into this demo: https://konvajs.github.io/docs/react/DOM_Portal.html`
     );
     NodeClass = Konva.Group;
   }

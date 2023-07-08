@@ -35,7 +35,7 @@ npm install react-konva konva --save
 import React, { useState } from 'react';
 import { render } from 'react-dom';
 import { Stage, Layer, Rect, Text } from 'react-konva';
-import Konva from 'konva';
+import Konva from '@ourfor/konva';
 
 const ColoredRect = () => {
   const [color, setColor] = useState('green');
@@ -125,7 +125,7 @@ Take a look into this example:
 
 ```javascript
 import { Circle } from 'react-konva';
-import Konva from 'konva';
+import Konva from '@ourfor/konva';
 
 const Shape = () => {
   const [color, setColor] = React.useState();
@@ -157,7 +157,7 @@ import { Stage, Layer, Rect } from 'react-konva/lib/ReactKonvaCore';
 
 // minimal version has NO support for core shapes and filters
 // if you want import a shape into Konva namespace you can just do this:
-import 'konva/lib/shapes/Rect';
+import '@ourfor/konva/lib/shapes/Rect';
 ```
 
 Demo: [https://codesandbox.io/s/6l97wny44z](https://codesandbox.io/s/6l97wny44z)
@@ -170,7 +170,7 @@ Due to a [known issue](https://github.com/facebook/react/issues/13336) with Reac
 
 ```js
 import React, { Component } from 'react';
-import Konva from 'konva';
+import Konva from '@ourfor/konva';
 import { render } from 'react-dom';
 import { Stage, Layer, Rect } from 'react-konva';
 

@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "name": "react-konva",
+  "name": "@ourfor/react-konva",
   "description": "React binding to canvas element via Konva framework",
   "version": "18.2.10",
   "keywords": [
@@ -40,16 +40,16 @@
     }
   ],
   "peerDependencies": {
-    "konva": "^8.0.1 || ^7.2.5 || ^9.0.0",
+    "@ourfor/konva": "^8.0.1 || ^7.2.5 || ^9.0.0",
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
   },
   "devDependencies": {
+    "@ourfor/konva": "^9.2.0",
     "@types/chai": "^4.3.5",
     "@types/mocha": "^10.0.1",
     "@types/react": "18.2.8",
     "chai": "4.3.7",
-    "konva": "^9.1.0",
     "mocha-headless-chrome": "^4.0.0",
     "parcel": "^2.9.1",
     "process": "^0.11.10",

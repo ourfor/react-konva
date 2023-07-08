@@ -1,7 +1,7 @@
 // special file for minimal import
 import * as React from 'react';
 import * as ReactReconciler from 'react-reconciler'
-import Konva from 'konva';
+import Konva from '@ourfor/konva';
 
 export interface KonvaNodeEvents {
   onMouseOver?(evt: Konva.KonvaEventObject<MouseEvent>): void;

@@ -8,7 +8,7 @@
 'use strict';
 
 import React from 'react';
-import Konva from 'konva/lib/Core.js';
+import Konva from '@ourfor/konva/lib/Core.js';
 import ReactFiberReconciler from 'react-reconciler';
 import { LegacyRoot, ConcurrentRoot } from 'react-reconciler/constants.js';
 import * as HostConfig from './ReactKonvaHostConfig.js';

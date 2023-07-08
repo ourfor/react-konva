@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { unstable_batchedUpdates as batchedUpdates } from 'react-dom';
 import sinon from 'sinon';
 import { expect } from 'chai';
-import Konva from 'konva';
+import Konva from '@ourfor/konva';
 import useImage from 'use-image';
 
 import './mocking';
